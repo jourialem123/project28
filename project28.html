@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project28</title>
+</head>
+<body>
+   <h2>Project 28</h2> 
+   <p id="p1"></p>
+   <p id="p2"></p>
+   <p id="p3"></p>
+   <p id="p4"></p>
+   <p id="p5"></p>
+    <p id="p6"></p>
+    <p id="p7"></p>
+    <p id="p8"></p>
+   <script>
+ //  avg=(a,b)=>(a+b)/2
+    
+        try{
+            product=avg(20,30);
+            document.getElementById("p1").innerHTML=product;
+        }
+        catch(y){
+document.getElementById("p2").innerHTML= y.message
+        }
+ div=(c,d)=>c/d
+try{
+  result=div(40,4);
+  document.getElementById("p3").innerHTML=result;
+}
+catch(w){
+    document.getElementById("p4").innerHTML= w
+}
+var hello=(val)=>"We use catch and try to look for errors in our "+val;
+document.getElementById("p5").innerHTML=hello("code.").replace("look for","find");
+
+   </script>
+</body>
+</html>
